@@ -2,19 +2,27 @@
   "name": "generator-rr",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/AndreyFizer/generator-rr#readme",
+  "author": "",
+  "files": [
+    "generators"
+  ],
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [
+    "yeoman-generator"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AndreyFizer/generator-rr.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AndreyFizer/generator-rr/issues"
   },
-  "homepage": "https://github.com/AndreyFizer/generator-rr#readme"
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "lodash": "^4.17.2",
+    "yeoman-generator": "^0.23.0",
+    "yosay": "^1.0.0"
+  }
 }
